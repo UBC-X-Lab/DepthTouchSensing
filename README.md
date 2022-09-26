@@ -1,4 +1,4 @@
-# DepthTouchSensing
+# DepthTouchSensing Dataset
 Reducing the Latency of Touch Tracking on Ad-hoc Surfaces
 
 ## Paper abstract: 
