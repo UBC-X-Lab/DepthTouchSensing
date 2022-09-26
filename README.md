@@ -1,7 +1,7 @@
 # DepthTouchSensing
 Reducing the Latency of Touch Tracking on Ad-hoc Surfaces
 
-##Paper abstract: 
+## Paper abstract: 
 Touch sensing on ad-hoc surfaces has the potential to transform everyday surfaces in the environment - desks, tables and walls - into
 tactile, touch-interactive surfaces, creating large, comfortable interactive spaces without the cost of large touch sensors. Depth sensors
 are a promising way to provide touch sensing on arbitrary surfaces, but past systems have suffered from high latency and poor touch
@@ -12,7 +12,7 @@ open-source our dataset of over 30,000 touch events recorded in depth, infrared 
 
 link: TODO!!!
 
-##Data description:
+## Data description:
 19 users' screen touching data are collected. 
 User 1-3 are pilot studies. User 4-19 (16 users) are used for our paper. Each folder named from 01 to 19 corresponding to the data of one user.
 Each participant was paid $15 for an 80 minute long session. 
