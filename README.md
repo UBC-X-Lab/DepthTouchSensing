@@ -10,8 +10,7 @@ approach to predictively classify touch events from depth data with lower latenc
 Our system can reduce end-to-end touch latency to under 70ms, comparable to conventional capacitive touchscreens. Additionally, we
 open-source our dataset of over 30,000 touch events recorded in depth, infrared and RGB for the benefit of future researchers.
 
-Link to the paper: TODO
-Paper PDF: TODO
+Link to the paper: https://dl.acm.org/doi/10.1145/3567730 
 
 ## Data description:
 19 users' screen touching data are collected. 
@@ -39,5 +38,8 @@ sessions 2 and 5 respectively, to break the tapping pattern and reduce monotony.
 collected and provided for future research, but were not used in this project.
 1_1 in user 10 got accidentially overwritten due to a technical error. 
 
-The videos in the dataset are compressed by each participants. The format of the data is .mkv, which includes the RGB and depth channels of the participants' movement. Since all the details can be important for research use, we provide the raw data. The data size before compression is about 1.6TB. After lossless compression, it is about 800GB. Please prepare enough space before downloading. Since the dataset is gigantic, we cannot host it here. We are working on hosting it through UBC CS department. The directed link will be posted here soon.
+The videos in the dataset are compressed by each participants. The format of the data is .mkv, which includes the RGB and depth channels of the participants' movement. Since all the details can be important for research use, we provide the raw data. The data size before compression is about 1.6TB. After lossless compression, it is about 800GB. Please prepare enough space before downloading. Since the dataset is gigantic, we cannot host it here. We are working on hosting it through UBC CS department. The video data is hosted on media serve. You can access the first participants by https://media.cs.ubc.ca/brx/compressed_video/01.7z
+The second is https://media.cs.ubc.ca/brx/compressed_video/02.7z
+... etc. until https://media.cs.ubc.ca/brx/compressed_video/19.7z
+
 The labels are in the label folder. Similar to the videos, labels are clustered by users and named by sessions as well. (the data in the pilot studies might not be completed.) Labels are stored in .txt files. Each line represents one touch event. The information inside is "touch_id, touch_event_type, x_loc, y_loc, timestamp".
